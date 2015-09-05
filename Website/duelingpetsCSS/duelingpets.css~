@@ -101,7 +101,7 @@
    .petcontainer /*This should be made more generic since it is used in monster,pets and items */
    {
       display: inline-block;
-      margin-left: 3%;
+      margin-left: 75px;
    }
 
    .outer
