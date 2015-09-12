@@ -127,6 +127,13 @@
       white-space: pre-wrap;
       max-width: 40%;
    }
+
+   .petbox
+   {
+      font-size: 16px;
+      text-align:center;
+      font-weight: bold;
+   }
    /* End of Pet, Item and Monster related objects */
 
    /* Forum related css */

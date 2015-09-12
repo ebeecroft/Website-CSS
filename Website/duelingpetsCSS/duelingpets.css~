@@ -101,7 +101,7 @@
    .petcontainer /*This should be made more generic since it is used in monster,pets and items */
    {
       display: inline-block;
-      margin-left: 75px;
+      margin-left: 3%;
    }
 
    .outer
@@ -126,6 +126,12 @@
    {
       white-space: pre-wrap;
       max-width: 40%;
+   }
+
+   .petbox
+   {
+      text-align:center;
+      font-weight: bold;
    }
    /* End of Pet, Item and Monster related objects */
 
