@@ -97,6 +97,12 @@
    }
    /*End of Alerts*/
 
+   /* Page box for pagination use only */
+   .pagebox
+   {
+      text-align:center;
+   }
+
    /* Pet, Item and Monster related objects */
    .petcontainer /*This should be made more generic since it is used in monster,pets and items */
    {
@@ -130,6 +136,7 @@
 
    .petbox
    {
+      font-size: 16px;
       text-align:center;
       font-weight: bold;
    }
