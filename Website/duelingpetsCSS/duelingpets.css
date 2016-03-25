@@ -45,6 +45,7 @@
       background: #088A29;
       font-family: 'Lucida Sans Unicode','Lucida Grande',Helvetica,Arial,sans-serif;
       font-weight: bold; /*Looks better here*/
+      font-size: 20px;
    }
 
    .navigation a
@@ -60,6 +61,7 @@
    .contentbox
    {
       max-width: 100%;
+      font-size: 16px;
    }
    /*End of HTML Header section */
 
