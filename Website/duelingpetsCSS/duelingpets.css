@@ -68,7 +68,14 @@
    /* Mascot section */
    .mascot
    {
+      width: 75%;
+   }
+
+   .mascotbox
+   {
       text-align:center;
+      padding-left: 3%;
+      padding-right: 3%;
    }
    /* End of mascot section */
 

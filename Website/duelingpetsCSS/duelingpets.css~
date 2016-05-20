@@ -45,7 +45,7 @@
       background: #088A29;
       font-family: 'Lucida Sans Unicode','Lucida Grande',Helvetica,Arial,sans-serif;
       font-weight: bold; /*Looks better here*/
-      font-size: 20px;
+      font-size: 120%;
    }
 
    .navigation a
@@ -68,7 +68,14 @@
    /* Mascot section */
    .mascot
    {
+      width: 50%;
+   }
+
+   .mascotbox
+   {
       text-align:center;
+      padding-left: 3%;
+      padding-right: 3%;
    }
    /* End of mascot section */
 
