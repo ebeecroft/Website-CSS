@@ -21,16 +21,10 @@
       max-width: 100%;
    }
 
-   .forestbackground
-   {
-      width: 100%;
-      height: 110px;
-   }
-
    .banner
    {
       width: 100%;
-      height: 50%;
+      height: 110px;
    }
 
    .logo
