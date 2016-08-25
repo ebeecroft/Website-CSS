@@ -48,7 +48,7 @@
       padding-right: 3%;
       padding-top: 0.5%;
       padding-bottom: 0.5%;
-      font-size: 120%;
+      font-size: 60%;/*80% good for guest code*/
       text-align: center;
       background: #088A29;
    }
