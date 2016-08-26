@@ -53,6 +53,7 @@
       background: #088A29;
       font-family: 'Lucida Sans Unicode','Lucida Grande',Helvetica,Arial,sans-serif;
       font-weight: bold;
+      color: #faac58;
    }
 
    .navigationspacing
@@ -64,7 +65,6 @@
 
    .navigation a
    {
-      color: #faac58;
       text-decoration: none;
    }
 
