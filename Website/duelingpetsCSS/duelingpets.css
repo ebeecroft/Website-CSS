@@ -48,23 +48,23 @@
       padding-right: 3%;
       padding-top: 0.5%;
       padding-bottom: 0.5%;
-      font-size: 80%;
+      font-size: 80%; /* mobile version */
       text-align: center;
       background: #088A29;
+      font-family: 'Lucida Sans Unicode','Lucida Grande',Helvetica,Arial,sans-serif;
+      font-weight: bold;
+      color: #faac58;
    }
 
    .navigationspacing
    {
       display: inline-block;
-      padding-right: 1%;
-      padding-bottom: 1%; /* padding 2% works for mobile devices */
-      font-family: 'Lucida Sans Unicode','Lucida Grande',Helvetica,Arial,sans-serif;
-      font-weight: bold; /*Looks better here*/
+      padding-right: 1%; /* mobile compliant */
+      padding-bottom: 2%; /* mobile compliant */
    }
 
    .navigation a
    {
-      color: #faac58;
       text-decoration: none;
    }
 
