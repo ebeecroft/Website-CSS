@@ -57,7 +57,7 @@
    {
       display: inline-block;
       padding-right: 1%;
-      padding-bottom: 3%;
+      padding-bottom: 2%; /* padding 3% works for mobile devices */
       font-family: 'Lucida Sans Unicode','Lucida Grande',Helvetica,Arial,sans-serif;
       font-weight: bold; /*Looks better here*/
    }
