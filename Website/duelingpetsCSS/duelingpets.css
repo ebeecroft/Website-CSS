@@ -60,12 +60,12 @@
       display: inline-block;
       padding-right: 1%; /* mobile compliant */
       padding-bottom: 2%; /* mobile compliant */
-      color: #faac58;
    }
 
    .navigation a
    {
       text-decoration: none;
+      color: #faac58;
    }
 
    .contentbox
