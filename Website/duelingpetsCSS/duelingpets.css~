@@ -1,5 +1,16 @@
 /* Code for my website standards */
 
+   a.skip-main
+   {
+      left: -999px;
+      position: absolute;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      z-index: -999;
+   }
+
    /* HTML Header section */
    .pagecontent
    {
@@ -60,12 +71,12 @@
       display: inline-block;
       padding-right: 1%; /* mobile compliant */
       padding-bottom: 2%; /* mobile compliant */
-      color: #faac58;
    }
 
    .navigation a
    {
       text-decoration: none;
+      color: #faac58;
    }
 
    .contentbox
