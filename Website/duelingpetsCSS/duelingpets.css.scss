@@ -1,13 +1,12 @@
 /* Code for my website standards */
 
-   #error_explanation {
+  #error_explanation {
   width: 450px;
   border: 2px solid red;
   padding: 7px;
   padding-bottom: 0;
   margin-bottom: 20px;
   background-color: #f0f0f0;
-}
   ul li {
     font-size: 12px;
     list-style: square;
@@ -22,6 +21,7 @@
     background-color: #c00;
     color: #fff;
   }
+}
 
   .field_with_errors {
   padding: 2px;
@@ -113,12 +113,38 @@
       font-weight: bold;
    }
 
-   .navigationspacing
+   @media(max-width: 640px)
    {
+     .navigationspacing
+     {
       display: inline-block;
       padding-right: 1%; /* mobile compliant */
       padding-bottom: 2%; /* mobile compliant */
+     }
    }
+
+   @media(min-width: 640px)
+   {
+
+     .navigation
+     {
+      padding-left: 3%;
+      padding-right: 3%;
+      font-size: 120%; /* desktop version */
+      text-align: center;
+      background: #088A29;
+      font-family: 'Lucida Sans Unicode','Lucida Grande',Helvetica,Arial,sans-serif;
+      font-weight: bold;
+     }
+
+     .navigationspacing
+     {
+      display: inline-block;
+      padding-right: 1%; /* mobile compliant */
+
+      }
+   }
+
 
    .navigation a
    {
@@ -169,6 +195,11 @@
       padding-right: 3%; /* really good at this level */
       font-size: 24px;
       font-weight: bold;
+   }
+
+   .regcolor
+   {
+      color: #ff0000;
    }
 
    .sessiontime
